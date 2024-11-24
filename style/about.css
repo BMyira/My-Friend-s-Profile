@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #242b4e;
   color: white;
 }
@@ -84,11 +87,26 @@ body {
 }
 
 h1 {
+  padding-top: 20px;
   font-size: 96px;
-  padding: 0;
+  position: relative;
 }
 
-h1,
+h1::before {
+  content: "";
+  background: linear-gradient(to right, red, #6c63ff, blue);
+  height: 10px;
+  width: 33%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-left: 21px;
+}
+
 h2,
 h3 {
   text-align: center;
@@ -101,14 +119,29 @@ h3 {
   margin-top: -20px;
 }
 
-.paragraph-2 {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.5;
-  background-color: #53acb4;
-  color: black;
-  padding: 30px;
-  border-radius: 25px;
+.paragraphs {
+  margin: 60px 0 40px 100px;
+}
+p {
+  background-color: #27282c;
+  padding: 50px;
+}
+
+.mdu-img1 {
+  padding: 15px;
+  border: 2px solid #f5f1fe;
+  background-color: #27282c;
+  margin: 0 0 20px 162px;
+}
+
+.mdu-img2 {
+  padding: 15px;
+  border: 2px solid #f5f1fe;
+  background-color: #27282c;
+  margin: -20px 0 0 -62px;
+}
+
+.description-1 {
 }
 
 .email-link {

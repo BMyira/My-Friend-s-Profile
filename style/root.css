@@ -283,9 +283,9 @@ p {
 }
 @media (max-width: 990px) {
   .fa-linkedin,
-  .fa-x-twitter,
+  .fa-spotify,
   .fa-instagram,
-  .fa-facebook,
+  .fa-apple,
   .fa-square-whatsapp,
   .fa-envelope {
     display: flex;
@@ -311,8 +311,8 @@ p {
   font-size: 25px;
 }
 
-.fa-x-twitter {
-  color: black;
+.fa-spotify {
+  color: blue;
 }
 
 .gradient-2 {
@@ -331,7 +331,7 @@ p {
   font-size: 25px;
 }
 
-.fa-facebook {
+.fa-apple {
   color: white;
 }
 
